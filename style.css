@@ -1,0 +1,124 @@
+/* Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #121212;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 1rem 0;
+    border-bottom: 1px solid #333;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f4b400;
+}
+
+/* Main Content Area */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #f4b400;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+}
+
+/* Skills List Styling */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.skills-list li {
+    background-color: #333;
+    color: #f4b400;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.skills-list li::before {
+    content: '•';
+    color: #f4b400;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Project and Contact Section */
+.project, #contact {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.project h3 {
+    color: #f4b400;
+    margin-bottom: 0.5rem;
+}
+
+.project p, #contact p {
+    color: #f0f0f0;
+}
+
+/* Link Styling */
+a {
+    color: #f4b400;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffda66;
+}
+
+/* Footer and Other Elements */
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    text-align: center;
+    border-top: 1px solid #333;
+    color: #f0f0f0;
+}
